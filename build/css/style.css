@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+/* Меин*/
+
+body{
+	padding: 0;
+	margin: 0;
+    background: linear-gradient(to right, #f6f1d3, #fff 85%);
+    border-radius: 6px;
+    height: 120px;
+	font-family: 'Lora', sans-serif;
+}
+
+/* Меню */
+
+.logo {
+  margin: 0;
+  width: auto;
+  list-style: none;
+  text-align: center;
+  background-color: #272822;
+}
+
+.logo h2 {
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.search  {
+  padding-top: 10px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: transparent;
+
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 80%;
+  height: 80%;
+  padding-left: 15px;
+  background: #444;
+  background: rgba(0,0,0,.2);
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+  color: #fff;
+
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar ul li img {
+ height: 20px;
+}
+
+
+
+.navbar ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar ul li {
+  background: linear-gradient(to top, #048A8A 50%, #209999 50%);
+  float: left;
+  border-right: 2px solid #007878;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolder;
+  transition: all 0.3s linear;
+}
+.navbar ul li:first-child {
+  border-radius: 7px 0 0 7px;
+}
+.navbar ul li:last-child {
+  border-right: none;
+  border-radius: 0 7px 7px 0;
+}
+.navbar ul li:hover {
+  background: #272822;
+  color: #FAF7E4;
+}
+.navbar ul li a {
+  display: block;
+  height: 20px;
+  padding: 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+/* Главная */
+
+.biography img {
+ margin-left: 10px;
+
+}
+
+.biography h2 {
+  text-align: center;
+  color: #000;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.biography p {
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	  text-align: left;
+}
+
+figure.img {
+  margin: 0;
+  text-align: center;
+}
+figure.img img {  
+  height: 310px;
+}
+figure.img figcaption {  
+  padding: 0 1%;
+  font: italic 90% Georgia,serif;
+}
+
+
+
+
+ .hobbies {
+
+  margin: 0;
+  padding: 10px;
+  width: auto;
+  list-style: none;
+ }
+
+ .hobbies h2 {
+    text-align: center;
+  color: #000;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 10px;
+ }
+
+  .hobbies p {
+  	text-align: center;
+  	font-family: 'Lato', sans-serif;
+  	font-weight: normal;
+  }
+
+/* Рассписание */
+
+.rozklad h2 {
+  text-align: center;
+  color: #000;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.rozklad table {
+	text-align: center;
+	background: #272822; 
+    color: white; 
+}
+
+.rozklad th {
+	text-align: center;
+	font-weight: 600;
+	color: white;
+}
+
+.rozklad td {
+	 background: #fff;
+	 color: #000;
+}
+
+/* Фото */
+
+.gallery h2 {
+  text-align: center;
+  color: #000;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.photo {
+  text-align: center;
+}
+
+/* Новости */
+
+.news {
+	text-align: center;
+}
+
+.news h2 {
+	padding-top: 10px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.news strong {
+	font-weight: 600;
+}
+
+.news p {
+	padding-top: 10px;
+}
+
+/* Видео */
+
+.video {
+	text-align: center;
+	padding: 100px;
+}
+
+/* Вверх */
+
+.topbutton {
+width:40px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color:#333;
+font-size:20px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
+
+/* Футер */
+
+.footer {
+    position: fixed; 
+    left: 0; bottom: 0; 
+    text-align: center;
+    padding: 10px; 
+    width: 100%; 
+ }
+
+ .footer-sec {
+ 	text-align: center;
+ 	padding: 20px;
+ }
